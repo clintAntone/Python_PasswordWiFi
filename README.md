@@ -26,11 +26,21 @@ Use **only on systems you own** or have **explicit permission** to access. Misus
 
 ---
 
-## 🖥️ Example Output
+## 💻 How to Execute the Script
 
-```text
-Wifiname                      Password
------------------------------ ---------------------
-HomeNetwork                   mysecretpass123
-CoffeeShopWiFi               ilovecoffee456
-OfficeNetwork                P@ssw0rd!
+### 📝 Step 1: Save the Script
+
+Save the Python script in a file named `wifiPasswords.py`.
+
+---
+
+### 🐧 On Linux
+
+#### ✅ Requirements:
+- Python 3 installed
+- Admin/root access (`sudo`)
+
+#### ▶️ Run the script:
+
+```bash
+sudo python3 wifiPasswords.py
